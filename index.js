@@ -16,7 +16,7 @@ root.render(
 
     </React.StrictMode>
 
-);*/
+);
 
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -43,6 +43,26 @@ function Books() {
 }
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Books />);
-export default Books;
+export default Books;*/
 
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import {default as M1, M2,M3 } from './mycode';
+// import M11 from './mycode2';
+//import Yourapp from './yourapp';
+//import App from './App';
+// import UseSE from './UseSE';
+import ContextAPI from './context-api';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ContextAPI></ContextAPI>
+  {/* <M1/>
+  <M2/>
+  <M3/>
+  <M11/> */}
+  </React.StrictMode>
+);
 
